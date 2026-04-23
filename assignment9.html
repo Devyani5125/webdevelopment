@@ -1,0 +1,156 @@
+<!-- Assignment 9 -->
+<!-- Demonstrate Registration Form -->
+<!-- Devyani P Patil -->
+<!-- CSE A 17 S1 -->
+ <a href="index.html">Home</a> |
+<a href="assignment8.html">⬅ Previous</a> |
+<a href="assignment10.html">Next ➡</a>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Registration</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: linear-gradient(to right, #1d2b64, #f8cdda);
+        }
+
+        .form-box {
+            width: 450px;
+            margin: 40px auto;
+            padding: 25px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        fieldset {
+            margin-bottom: 15px;
+            border-radius: 8px;
+        }
+
+        legend {
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .inline {
+            width: auto;
+        }
+
+        .buttons {
+            text-align: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .submit {
+            background: #28a745;
+            color: white;
+        }
+
+        .reset {
+            background: #dc3545;
+            color: white;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="form-box">
+
+<h2>🚀 Employee Registration</h2>
+
+<form>
+
+<fieldset>
+<legend>👤 Personal Details</legend>
+
+Full Name:
+<input type="text" required>
+
+Email:
+<input type="email" required>
+
+Password:
+<input type="password" required>
+
+Gender:
+<input type="radio" name="g" class="inline"> Male
+<input type="radio" name="g" class="inline"> Female
+<input type="radio" name="g" class="inline"> Other
+
+</fieldset>
+
+<fieldset>
+<legend>💼 Professional Details</legend>
+
+Department:
+<select>
+    <option>HR</option>
+    <option>IT</option>
+    <option>Finance</option>
+    <option>Marketing</option>
+</select>
+
+Experience:
+<input type="number" placeholder="Years of experience">
+
+Skills:
+<input type="checkbox" class="inline"> Java
+<input type="checkbox" class="inline"> Python
+<input type="checkbox" class="inline"> Web Development
+
+</fieldset>
+
+<fieldset>
+<legend>📍 Additional Information</legend>
+
+Address:
+<textarea rows="3"></textarea>
+
+Date of Joining:
+<input type="date">
+
+Upload Resume:
+<input type="file">
+
+</fieldset>
+
+<div class="buttons">
+<button type="submit" class="submit">Register</button>
+<button type="reset" class="reset">Reset</button>
+</div>
+
+</form>
+
+</div>
+
+</body>
+</html>
