@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="assignment11.xsl"?>
+<college>
+    <department>
+        <student id="S101">
+            <name>Rahul Patil</name>
+            <age>20</age>
+            <course>Computer Engineering</course>
+            <email>rahul.patil@example.com</email>
+            <phone>1234567890</phone>
+            <city>Pune</city>
+            <skills>
+                <skill>HTML</skill>
+                <skill>CSS</skill>
+                <skill>JavaScript</skill>
+            </skills>
+        </student>
+        <student id="S102">
+            <name>Sneha Sharma</name>
+            <age>21</age>
+            <course>Information Technology</course>
+            <email>sneha.sharma@example.com</email>
+            <phone>9876543210</phone>
+            <city>Mumbai</city>
+            <skills>
+                <skill>Java</skill>
+                <skill>SQL</skill>
+            </skills>
+        </student>
+        <student id="S103">
+            <name>Aryan Joshi</name>
+            <age>22</age>
+            <course>Mechanical Engineering</course>
+            <email>aryan.joshi@example.com</email>
+            <phone>9123456780</phone>
+            <city>Nagpur</city>
+            <skills>
+                <skill>CAD</skill>
+                <skill>Matlab</skill>
+            </skills>
+        </student>
+        <student id="S104">
+            <name>Priya Desai</name>
+            <age>19</age>
+            <course>Electronics</course>
+            <email>priya.desai@example.com</email>
+            <phone>9988776655</phone>
+            <city>Pune</city>
+            <skills>
+                <skill>Circuit Design</skill>
+                <skill>Embedded Systems</skill>
+            </skills>
+        </student>
+    </department>
+</college>
