@@ -1,0 +1,41 @@
+<!-- Assignment 12 -->
+<!-- implementation xslt and transformation of xml to xslt -->
+<!-- Devyani P Patil -->
+<!-- CSE A 17 S1 -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="assignment12_2.xsl"?>
+
+<students>
+
+    <student>
+        <name>Rahul Patil</name>
+        <rollno>101</rollno>
+        <course>Computer Engineering</course>
+        <marks>85</marks>
+    </student>
+
+    <student>
+        <name>Sneha Sharma</name>
+        <rollno>102</rollno>
+        <course>Information Technology</course>
+        <marks>72</marks>
+    </student>
+
+    <student>
+        <name>Aryan Joshi</name>
+        <rollno>103</rollno>
+        <course>Mechanical Engineering</course>
+        <marks>58</marks>
+    </student>
+
+    <student>
+        <name>Priya Desai</name>
+        <rollno>104</rollno>
+        <course>Electronics</course>
+        <marks>91</marks>
+    </student>
+
+</students>
+
